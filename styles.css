@@ -61,21 +61,17 @@ table{
     vertical-align: top;
 }
 
-h2{
+.bg h2{
     color: darkblue;
     font-size: 27px;
     margin-left: 40px;
 }
 
-p{
-    margin-left: 100px;
- 
-}
 
-h1{
+.bg h1{
     margin: 0;
     color: #090580;
-    margin-left: 60%;
+    margin-left: 66%;
     margin-bottom: 10px;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
@@ -84,7 +80,7 @@ h1{
 .subclass{
     margin-top: 0;
     color: darkblue;
-    margin-left: 65%;
+    margin-left: 70%;
     font-size: 25px;
    font-family:'Times New Roman', Times, serif;
 }
@@ -274,4 +270,41 @@ a button:hover{
   .line2 a{
     padding: 5px 5px;
   } 
+  
+  div.gallery {
+      border: 1px solid #ccc;
+    }
+    
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: 270px;
+    }
+    
+    div.desc {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    * {
+      box-sizing:border-box;
+    }
+    
+    .responsive {
+      margin-inline-start: 90px;
+      
+     margin-block-start: 20px;
+      padding: 0 6px;
+      float: left;
+      /* width: 24.99999%; */
+      width: 25%;
+    }
 
+    .Holiday h1{
+        text-align: center;
+        color: #090580;
+        font-size: 40px;
+    }
